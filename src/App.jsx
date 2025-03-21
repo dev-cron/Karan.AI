@@ -9,8 +9,8 @@ function App() {
     <Header/>
     <div className="nes-container with-title is-rounded" style={{marginTop:"75px", width:"95vw"}}>
       <h3 class="title">Chat with karan.AI</h3>
-    {/* <Main/> */}
-    <ChatWindow/>
+    <Main/>
+    {/* <ChatWindow/> */}
     <Input/>
     </div> 
     </>

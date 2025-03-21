@@ -6,7 +6,7 @@ const Input = () => {
     const [Input, setInput] = useState("")
     const [Chat, setChat] = useState([]);
 
-    const genAI = new GoogleGenerativeAI("AIzaSyDjycqu5K7H7VvbkmlAemZhkdfMfYNX5TM");
+    const genAI = new GoogleGenerativeAI("");
 
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
